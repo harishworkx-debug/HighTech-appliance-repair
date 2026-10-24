@@ -691,6 +691,83 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Real Google Maps Reviews Showcase */}
+      <section className="mx-auto max-w-6xl px-4 py-16 sm:py-20">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+          <div className="max-w-2xl">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-500/10 px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-amber-300 border border-amber-500/20">
+              <Star className="h-3.5 w-3.5 fill-amber-400 text-amber-400" />
+              Real Google Maps Reviews
+            </span>
+            <h2 className="mt-3 text-3xl font-extrabold text-white sm:text-4xl">
+              What San Diego Homeowners Say About Us
+            </h2>
+            <p className="mt-3 text-slate-300">
+              Rated <strong>{reviewSummary.rating} out of 5 stars</strong> across {reviewSummary.totalReviews} verified Google reviews. Real feedback from local customers.
+            </p>
+          </div>
+
+          <div className="shrink-0 flex items-center gap-3">
+            <Link
+              to="/reviews"
+              className="inline-flex items-center gap-2 rounded-xl bg-slate-800 border border-white/10 px-5 py-3 text-sm font-semibold text-white hover:border-sky-400 hover:bg-slate-700 transition-all"
+            >
+              <span>View All {reviewSummary.totalReviews} Reviews</span>
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
+        </div>
+
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+          {reviews.slice(0, 6).map((rev) => (
+            <div
+              key={rev.id}
+              className="flex flex-col justify-between rounded-2xl border border-white/10 bg-slate-900/70 p-6 shadow-lg hover:border-sky-500/30 hover:bg-slate-900/90 transition-all"
+            >
+              <div>
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="font-bold text-white text-base">{rev.author}</h3>
+                    <p className="text-xs text-slate-400">{rev.badges}</p>
+                  </div>
+                  <span className="text-xs text-slate-400">{rev.date}</span>
+                </div>
+
+                <div className="mt-3 flex items-center gap-1.5">
+                  <div className="flex items-center gap-0.5">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <Star
+                        key={i}
+                        className={`h-4 w-4 ${
+                          i < rev.rating
+                            ? 'fill-amber-400 text-amber-400'
+                            : 'text-slate-700'
+                        }`}
+                      />
+                    ))}
+                  </div>
+                  <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded border border-emerald-500/20">
+                    <CheckCircle2 className="h-3 w-3" />
+                    Verified
+                  </span>
+                </div>
+
+                <p className="mt-3 text-sm text-slate-300 leading-relaxed line-clamp-4">
+                  "{rev.content}"
+                </p>
+              </div>
+
+              {rev.ownerResponse && (
+                <div className="mt-4 pt-3 border-t border-white/5 text-xs text-slate-400">
+                  <span className="font-semibold text-sky-400">Response from Owner: </span>
+                  <span className="line-clamp-2">{rev.ownerResponse.text}</span>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* Coverage Service Areas Grid */}
       <section className="mx-auto max-w-6xl px-4 py-16 sm:py-20">
         <div className="text-center max-w-3xl mx-auto">
