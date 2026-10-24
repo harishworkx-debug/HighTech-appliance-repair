@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://refrigeratorrepair.pro/sitemap.xml
+Sitemap: https://www.refrigeratorrepair.pro/sitemap.xml

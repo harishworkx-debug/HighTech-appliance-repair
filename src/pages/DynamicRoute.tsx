@@ -16,6 +16,12 @@ export default function DynamicRoute() {
     return <NotFound />;
   }
 
+  // Also check if slug directly matches a location (e.g. /san-diego-ca)
+  const directLocation = getLocation(raw);
+  if (directLocation) {
+    return <ServiceArea />;
+  }
+
   if (services.some((s) => s.slug === raw)) {
     return <ServiceDetail />;
   }

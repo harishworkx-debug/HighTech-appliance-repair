@@ -10,7 +10,7 @@ export const business = {
   rating: 4.5,
   reviewCount: 35,
   primaryArea: 'San Diego, California',
-  domain: 'refrigeratorrepair.pro',
+  domain: 'www.refrigeratorrepair.pro',
 };
 
 export type Service = {
