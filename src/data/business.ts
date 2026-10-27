@@ -1,8 +1,8 @@
 export const business = {
   name: 'HighTech Appliance Repair',
   category: 'Appliance Repair Service',
-  phoneDisplay: '858-203-0555',
-  phoneHref: 'tel:+18582030555',
+  phoneDisplay: '858-399-8033',
+  phoneHref: 'tel:+18583998033',
   website: 'https://www.refrigeratorrepair.pro/',
   mapsLink: 'https://maps.app.goo.gl/1rruyxb3cTS9sTwk8',
   mapsEmbed:
@@ -92,7 +92,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Refrigerator Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Refrigerator not cooling, leaking, or making noise? Call HighTech Appliance Repair at 858-203-0555 for refrigerator repair service in San Diego.',
+      'Refrigerator not cooling, leaking, or making noise? Call HighTech Appliance Repair at 858-399-8033 for refrigerator repair service in San Diego.',
     intro:
       'A refrigerator that stops cooling can quickly become an urgent problem. HighTech Appliance Repair helps San Diego-area households address common refrigerator issues — from warm compartments and frost buildup to leaks and unusual noises. Call to describe the symptom and check service availability for your home.',
   },
@@ -139,7 +139,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Freezer Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Freezer thawing or icing over? Call HighTech Appliance Repair at 858-203-0555 for freezer repair service in the San Diego area.',
+      'Freezer thawing or icing over? Call HighTech Appliance Repair at 858-399-8033 for freezer repair service in the San Diego area.',
     intro:
       'A freezer that thaws or ices over can ruin stored food fast. HighTech Appliance Repair helps customers in the San Diego area address freezer temperature problems, frost buildup, and seal issues. Call to discuss what is happening and confirm service availability.',
   },
@@ -187,7 +187,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Washer Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Washer not draining, spinning, or leaking? Call HighTech Appliance Repair at 858-203-0555 for washing machine repair in San Diego.',
+      'Washer not draining, spinning, or leaking? Call HighTech Appliance Repair at 858-399-8033 for washing machine repair in San Diego.',
     intro:
       'A washer that leaks, will not drain, or shakes violently can disrupt your whole week. HighTech Appliance Repair helps San Diego-area residents address common washing machine problems. Call to describe the symptom and check whether service is available for your model.',
   },
@@ -235,7 +235,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Dryer Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Dryer not heating, tumbling, or starting? Call HighTech Appliance Repair at 858-203-0555 for dryer repair service in San Diego.',
+      'Dryer not heating, tumbling, or starting? Call HighTech Appliance Repair at 858-399-8033 for dryer repair service in San Diego.',
     intro:
       'A dryer that will not heat or tumble can bring laundry to a halt. HighTech Appliance Repair helps San Diego-area households troubleshoot common dryer problems, from no-heat failures to noisy drums. Call to describe what is happening and confirm service availability.',
   },
@@ -283,7 +283,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Dishwasher Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Dishwasher not draining, cleaning, or filling? Call HighTech Appliance Repair at 858-203-0555 for dishwasher repair in San Diego.',
+      'Dishwasher not draining, cleaning, or filling? Call HighTech Appliance Repair at 858-399-8033 for dishwasher repair in San Diego.',
     intro:
       'A dishwasher that leaves dishes dirty or will not drain is a daily inconvenience. HighTech Appliance Repair helps San Diego-area customers address common dishwasher problems. Call to describe the symptom and check service availability for your home.',
   },
@@ -331,7 +331,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Oven Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Oven not heating or baking unevenly? Call HighTech Appliance Repair at 858-203-0555 for oven repair service in San Diego.',
+      'Oven not heating or baking unevenly? Call HighTech Appliance Repair at 858-399-8033 for oven repair service in San Diego.',
     intro:
       'An oven that will not heat or bake evenly makes meal planning difficult. HighTech Appliance Repair helps San Diego-area households troubleshoot common oven problems in both gas and electric models. Call to describe the symptom and confirm service availability.',
   },
@@ -379,7 +379,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Stove and Range Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Burner will not ignite or heat? Call HighTech Appliance Repair at 858-203-0555 for stove and range repair in San Diego.',
+      'Burner will not ignite or heat? Call HighTech Appliance Repair at 858-399-8033 for stove and range repair in San Diego.',
     intro:
       'A burner that will not ignite or heat slows down every meal. HighTech Appliance Repair helps San Diego-area customers troubleshoot common stove and range problems on both gas and electric cooktops. Call to describe the symptom and confirm service availability.',
   },
@@ -427,7 +427,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Microwave Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Microwave not heating, starting, or sparking? Call HighTech Appliance Repair at 858-203-0555 for microwave repair in San Diego.',
+      'Microwave not heating, starting, or sparking? Call HighTech Appliance Repair at 858-399-8033 for microwave repair in San Diego.',
     intro:
       'A microwave that runs but will not heat is a common frustration. HighTech Appliance Repair helps San Diego-area customers troubleshoot microwave problems, from no-heat failures to turntable and door switch issues. Call to describe the symptom and confirm service availability.',
   },
@@ -475,7 +475,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'Ice Maker Repair in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Ice maker not producing or ejecting ice? Call HighTech Appliance Repair at 858-203-0555 for ice maker repair in San Diego.',
+      'Ice maker not producing or ejecting ice? Call HighTech Appliance Repair at 858-399-8033 for ice maker repair in San Diego.',
     intro:
       'An ice maker that stops producing ice is a minor annoyance that adds up. HighTech Appliance Repair helps San Diego-area households address common ice maker problems, from frozen fill tubes to failed modules. Call to describe the symptom and confirm service availability.',
   },
@@ -523,7 +523,7 @@ export const services: Service[] = [
     ],
     metaTitle: 'General Appliance Troubleshooting in San Diego | HighTech Appliance Repair',
     metaDescription:
-      'Appliance acting up and not sure why? Call HighTech Appliance Repair at 858-203-0555 for general appliance troubleshooting in San Diego.',
+      'Appliance acting up and not sure why? Call HighTech Appliance Repair at 858-399-8033 for general appliance troubleshooting in San Diego.',
     intro:
       'Sometimes an appliance problem is hard to pin down. HighTech Appliance Repair helps San Diego-area customers troubleshoot unusual appliance behavior and figure out the next step. Call to describe what is happening and check service availability.',
   },
@@ -550,7 +550,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair San Diego, CA | HighTech Appliance Repair',
     metaDescription:
-      'Need appliance repair in San Diego, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerators, washers, dryers, ovens, and more.',
+      'Need appliance repair in San Diego, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerators, washers, dryers, ovens, and more.',
   },
   {
     slug: 'chula-vista-ca',
@@ -572,7 +572,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair Chula Vista, CA | HighTech Appliance Repair',
     metaDescription:
-      'Appliance not working in Chula Vista, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerator, washer, dryer, and oven repair.',
+      'Appliance not working in Chula Vista, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerator, washer, dryer, and oven repair.',
   },
   {
     slug: 'la-mesa-ca',
@@ -594,7 +594,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair La Mesa, CA | HighTech Appliance Repair',
     metaDescription:
-      'Need appliance repair in La Mesa, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerators, washers, dryers, and ovens.',
+      'Need appliance repair in La Mesa, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerators, washers, dryers, and ovens.',
   },
   {
     slug: 'el-cajon-ca',
@@ -616,7 +616,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair El Cajon, CA | HighTech Appliance Repair',
     metaDescription:
-      'Appliance not working in El Cajon, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerator, freezer, washer, and oven repair.',
+      'Appliance not working in El Cajon, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerator, freezer, washer, and oven repair.',
   },
   {
     slug: 'santee-ca',
@@ -638,7 +638,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair Santee, CA | HighTech Appliance Repair',
     metaDescription:
-      'Need appliance repair in Santee, CA? Call HighTech Appliance Repair at 858-203-0555 for washers, dryers, refrigerators, and ovens.',
+      'Need appliance repair in Santee, CA? Call HighTech Appliance Repair at 858-399-8033 for washers, dryers, refrigerators, and ovens.',
   },
   {
     slug: 'poway-ca',
@@ -660,7 +660,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair Poway, CA | HighTech Appliance Repair',
     metaDescription:
-      'Appliance not working in Poway, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerator, oven, washer, and dryer repair.',
+      'Appliance not working in Poway, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerator, oven, washer, and dryer repair.',
   },
   {
     slug: 'national-city-ca',
@@ -682,7 +682,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair National City, CA | HighTech Appliance Repair',
     metaDescription:
-      'Need appliance repair in National City, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerators, washers, stoves, and ovens.',
+      'Need appliance repair in National City, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerators, washers, stoves, and ovens.',
   },
   {
     slug: 'la-jolla-ca',
@@ -704,7 +704,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair La Jolla, CA | HighTech Appliance Repair',
     metaDescription:
-      'Appliance not working in La Jolla, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerator, dishwasher, and oven repair.',
+      'Appliance not working in La Jolla, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerator, dishwasher, and oven repair.',
   },
   {
     slug: 'escondido-ca',
@@ -726,7 +726,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair Escondido, CA | HighTech Appliance Repair',
     metaDescription:
-      'Need appliance repair in Escondido, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerators, freezers, washers, and dryers.',
+      'Need appliance repair in Escondido, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerators, freezers, washers, and dryers.',
   },
   {
     slug: 'encinitas-ca',
@@ -748,7 +748,7 @@ export const locations: Location[] = [
     ],
     metaTitle: 'Appliance Repair Encinitas, CA | HighTech Appliance Repair',
     metaDescription:
-      'Appliance not working in Encinitas, CA? Call HighTech Appliance Repair at 858-203-0555 for refrigerator, dishwasher, and washer repair.',
+      'Appliance not working in Encinitas, CA? Call HighTech Appliance Repair at 858-399-8033 for refrigerator, dishwasher, and washer repair.',
   },
 ];
 

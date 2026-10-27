@@ -8,7 +8,7 @@ export default function NotFound() {
     <>
       <SEO
         title="Page Not Found | HighTech Appliance Repair"
-        description="The page you were looking for could not be found. Call HighTech Appliance Repair at 858-203-0555 for appliance repair in San Diego."
+        description={`The page you were looking for could not be found. Call HighTech Appliance Repair at ${business.phoneDisplay} for appliance repair in San Diego.`}
       />
       <section className="mx-auto flex max-w-2xl flex-col items-center px-4 py-24 text-center">
         <p className="text-7xl font-extrabold text-sky-500">404</p>
